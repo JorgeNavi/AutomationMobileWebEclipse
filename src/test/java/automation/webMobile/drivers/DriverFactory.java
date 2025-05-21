@@ -10,7 +10,8 @@ import java.util.Map;
 
 public class DriverFactory {
 
-    private static final String DRIVER_PATH = "/Users/jorgenavidadespliego/Developer/chromedrivers/136/chromedriver";
+    //private static final String DRIVER_PATH = "/Users/jorgenavidadespliego/Developer/chromedrivers/136/chromedriver";
+    private static final String DRIVER_PATH = "C:\\\\Drivers\\\\chromedriver.exe";
 
     public static WebDriver createMobileDriver() {
         //Verificamos si el archivo existe antes de usarlo
