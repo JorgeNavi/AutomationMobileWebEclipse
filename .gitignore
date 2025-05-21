@@ -1,0 +1,41 @@
+# ========================
+# IDE: Eclipse
+# ========================
+.classpath
+.project
+.settings/
+
+# ========================
+# Sistema Operativo: macOS
+# ========================
+.DS_Store
+
+# ========================
+# Maven: carpetas generadas
+# ========================
+target/
+dependency-reduced-pom.xml
+release.properties
+
+# ========================
+# TestNG
+# ========================
+test-output/
+
+# ========================
+# Allure
+# ========================
+allure-results/
+allure-report/
+
+# ========================
+# IntelliJ / JetBrains (por si alguien abre el proyecto allí)
+# ========================
+*.iml
+.idea/
+
+# ========================
+# Logs y archivos temporales
+# ========================
+*.log
+*.swp

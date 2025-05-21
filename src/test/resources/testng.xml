@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile Automation Suite" parallel="tests" thread-count="2">
+
+  <test name="Chrome Mobile Test">
+    <classes>
+      <class name="automation.webMobile.tests.ExampleTest" />
+    </classes>
+  </test>
+
+</suite>
